@@ -10,11 +10,21 @@ body {
 		 	
 .name {
 	background-color: #4aaaa5;
+	color: white;
 	width: 20%;
 	float: left;
 	text-align: center;
 }
 	
+
+.profile {
+	/*float left all the text to flow to the right of the image*/
+	float: left;
+	margin: 0px 20px 10px 0px;
+	height:250px;
+	width:200px;
+}
+
 .navlinks {
 	width: 40%;
 	float: right;
@@ -44,10 +54,17 @@ li a {
 }
 
 
-.wrapper {
+.bodyBackground {
 	background-image:url("../images/cork-wallet.png");
 	min-height: 400px;
 	clear: both;
+	padding-top: 20px;
+}
+
+.row-1 {
+	height: 400px;
+	margin: auto;
+	background-color: pink;
 }
 
 .col-1 {
@@ -55,14 +72,13 @@ li a {
 	width: 60%;
 	height: 200px;
 	float: left;
-	padding-top: 20px;
 }
 
 .box1 {
 	background-color: white;
 	width: 75%;
-	height: 80%;
 	margin: auto;
+	padding: 20px 20px;
 }		
 
 
@@ -88,8 +104,16 @@ li a {
 	border-top-color: #4aaaa5;
 	border-top-width: 4px;
 	display: flex;
+	justify-content: center;
 	height: 90px;
+	clear: both;
 	
+}
+
+.footerContent {
+	color: #777777;
+	margin: auto;
+	font-family: Arial;
 }
 
 @media screen and (max-width: 980px) {
