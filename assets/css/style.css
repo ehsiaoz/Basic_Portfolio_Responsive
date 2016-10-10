@@ -1,0 +1,257 @@
+
+
+/*Below section styles the header navigation bar*/	
+header {
+	background-color: white;
+	height: 100px;
+	padding-bottom: 0px;
+	border-bottom: solid #8c8c8c;
+	border-bottom-width: 2px;
+	overflow: hidden;
+}
+
+.headerContentWrapper {
+	background-color: white;
+	width: 960px;
+	height: 80px;
+	margin: 20px auto 0 auto;
+
+}
+
+.headerName {
+	background-color: #4aaaa5;
+	height: 80px;
+	width: 210px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 23px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Georgia;
+}
+
+
+hr {
+	margin-bottom: 20px;
+}
+
+.headerNavLinks {
+	margin-top: 30px;
+	margin-left: 420px;
+	float: left;
+}
+
+/*This following section styles nav links in global header to be inline*/
+.headerLink {
+	list-style-type: none;
+}
+
+/*This following section styles nav links in global header to have pipe dividers*/
+li {
+	display: inline;
+	border-right: 1px solid black; padding: 0 1em;
+}
+
+/*This following section removes the pipe divdier from far right nav links in global header*/
+ul li:last-child { 
+	border: 0; 
+}
+
+/*This following section styles font color nav links in global header and removes underline*/
+li a {
+	text-decoration: none;
+	color: #d1d2d3;
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+}
+
+.bodyBackground {
+	background-image:url("../images/cork-wallet.png");
+	min-height: 600px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}	
+
+.contentWrapper {
+
+	width: 960px;
+	margin: auto;
+
+
+}
+
+.mainContent {
+	box-sizing: border-box; 
+	width: 650px;
+	background-color: white;
+	float: left;
+	margin: auto;
+	padding: 0px 20px 20px 20px;
+
+}
+
+.linkModule {
+	box-sizing: border-box;
+	width: 270px;
+	background-color: #ffffff;
+	float: left;
+	margin-left: 40px;
+	border-color: #dddddd;
+	padding: 20px 20px 20px 20px;
+	
+}
+
+.empty {
+	height: 50px;
+	clear: both;
+	float: left;
+}
+
+h1 {
+	color: #4aaaa5;
+	font: Arial;
+
+}
+
+.profile {
+	/*float left all the text to flow to the right of the image*/
+	float: left;
+	margin: 0px 20px 10px 0px;
+	height:250px;
+	width:200px;
+	
+}
+
+h2 {
+	color: #4aaaa5;
+	font: Arial;
+	text-align: center;
+	
+}
+
+.linkGroup {
+	height: 50px;
+	margin: auto;
+	text-align: justify;
+}
+
+.social {
+	float: left;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+#github {
+	margin-left: 30px;
+}
+
+.footerContent {
+	color: #777777;
+	margin: auto;
+	font-family: Arial;
+}
+
+/*The below css applies to contact.hmtl*/
+
+label {
+	color: #777777;
+	font-family: Arial;
+}
+
+
+input[type=text] {
+	width: 585px;
+	padding: 10px 10px;
+	margin: 8px 0;
+	
+}
+
+
+.footer {
+	clear: both;
+	background-color: #666666;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	display: flex;
+	height: 90px;
+	
+}
+
+input[type=submit] {
+	color: white;
+	padding: 8px 10px;
+	margin: 8px 0;
+	background-color: #4aaaa5;
+	border: none;
+	width: 100px;
+	font-size: 16px;
+}
+
+textarea {
+	padding: 12px 20px;
+	margin: 8px 0;
+
+}
+
+hr {
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	color: #e2e2e2;
+}
+
+/*The below section pertains to the portfolio.index page*/
+
+
+table {
+
+	border-spacing: 30px 40px;
+	margin: auto;
+	width: 100%;
+
+}
+
+.photo {
+	position: relative;
+	width:240px;
+	height:160px;
+	
+}
+
+img.portfolio {
+	width:240px;
+	height:160px;
+	
+}
+
+.photo:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.imgLabel {
+	width:240px;
+	height: 40px;
+	background-color: #4aaaa5;
+	position: absolute;
+	top: 70%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+

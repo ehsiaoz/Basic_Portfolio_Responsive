@@ -1,0 +1,232 @@
+body {
+	margin: 0;
+}
+
+.header {
+	background-color: white;
+	height: 100px;
+	width: 100%;
+}
+		 	
+.name {
+	background-color: #4aaaa5;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+	
+.navlinks {
+	width: 40%;
+	float: right;
+}
+
+/*This following section styles nav links in global header to be inline*/
+.headerLink {
+	list-style-type: none;
+}
+
+/*This following section styles nav links in global header to have pipe dividers*/
+li {
+	display: inline;
+	border-right: 1px #d1d2d3; padding: 0 1em;
+}
+
+/*This following section removes the pipe divdier from far right nav links in global header*/
+ul li:last-child { 
+	border: 0; 
+}
+
+/*This following section styles font color nav links in global header and removes underline*/
+li a {
+	text-decoration: none;
+	color: #d1d2d3;
+	font-family: Arial;
+}
+
+
+.wrapper {
+	background-image:url("../images/cork-wallet.png");
+	min-height: 400px;
+	clear: both;
+}
+
+.col-1 {
+	background-color: green;
+	width: 60%;
+	height: 200px;
+	float: left;
+	padding-top: 20px;
+}
+
+.box1 {
+	background-color: white;
+	width: 75%;
+	height: 80%;
+	margin: auto;
+}		
+
+
+.col-2 {
+	background-color: yellow;
+	width: 40%;
+	height: 150px;
+	float: left;
+	padding-top: 20px;
+}
+
+.box2 {
+	background-color: white;
+	width: 75%;
+	height: 80%;
+	margin: auto;
+}		
+
+.footer {
+	width: 100%;
+	background-color: #666666;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 4px;
+	display: flex;
+	height: 90px;
+	
+}
+
+@media screen and (max-width: 980px) {
+
+
+	.header {
+		background-color: blue;
+		width: 100%;
+		height: 100px;
+	}
+		 	
+	.name {
+		background-color: grey;
+		width: 50%;
+		float: left;
+	}
+	
+	.navlinks {
+		background-color: purple;
+		width: 50%;
+		float: left;
+	}
+
+	.wrapper {
+		background-color: brown;
+		min-height: 400px;
+	}
+
+	.col-1 {
+		background-color: green;
+		width: 60%;
+		float: left;
+	}
+			
+
+
+	.col-2 {
+		background-color: yellow;
+		width: 40%;
+		float: left;
+	}
+
+
+	.col-3 {
+		background-color: red;
+		width: 100%
+	}
+
+}	
+
+
+@media screen and (max-width: 768px) {
+
+
+	.header {
+		background-color: blue;
+		width: 100%;
+		height: 100px;
+	}
+	
+	.name {
+		background-color: grey;
+		width: 50%;
+		float: left;
+		}
+	
+	.navlinks {
+		background-color: purple;
+		width: 50%;
+		float: left;
+
+	}	 	
+		
+	.wrapper {
+		background-color: brown;
+		min-height: 400px;
+	}
+
+	.col-1 {
+		background-color: green;
+		width: 60%;
+	}
+			
+
+	.col-2 {
+		background-color: yellow;
+		width: 40%
+	}
+
+
+	.col-3 {
+		background-color: red;
+		width: 100%
+	}
+
+}
+
+
+@media screen and (max-width: 640px) {
+	
+	.header {
+		background-color: blue;
+		width: 100%;
+		height: 100px;
+	}
+
+	.name {
+		background-color: grey;
+		width: 100%;
+	}
+	
+	.navlinks {
+		background-color: purple;
+		width: 100%;
+	}	 	
+		
+	.wrapper {
+		background-color: brown;
+		min-height: 400px;
+	}
+
+	.col-1 {
+		background-color: green;
+		width: 100%;
+	}
+			
+
+
+	.col-2 {
+		background-color: yellow;
+		width: 100%
+	}
+
+
+	.col-3 {
+		background-color: red;
+		width: 100%
+	}
+
+}
