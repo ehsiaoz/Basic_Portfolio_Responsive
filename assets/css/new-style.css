@@ -84,7 +84,7 @@ li a {
 }
 
 .head-col-1 {
-	background-color: green;
+	background-color: none;
 	width: 60%;
 	float: left;
 }
@@ -99,7 +99,7 @@ li a {
 }		
 
 .head-col-2 {
-	background-color: yellow;
+	background-color: none;
 	width: 40%;
 	margin-top: 20px;
 	float: left;
@@ -108,7 +108,7 @@ li a {
 }
 
 .col-2 {
-	background-color: yellow;
+	background-color: none;
 	width: 40%;
 	float: left;
 	text-align: center;
@@ -255,11 +255,10 @@ a {
 	}
 
 	.col-1 {
-		background-color: blue;
+		background-color: none;
 		width: 60%;
 		float: left;
 	}
-
 
 
 	.box1 {
@@ -270,7 +269,7 @@ a {
 	}		
 
 	.head-col-2 {
-		background-color: yellow;
+		background-color: none;
 		width: 40%;
 		margin-top: 20px;
 		float: left;
@@ -279,7 +278,7 @@ a {
 	}
 
 	.col-2 {
-		background-color: yellow;
+		background-color: none;
 		width: 40%;
 		float: left;
 		text-align: center;
@@ -359,7 +358,7 @@ a {
 	}
 
 	.head-col-1 {
-	background-color: green;
+	background-color: none;
 	width: 50%;
 	float: left;
 	}
@@ -381,7 +380,7 @@ a {
 	}
 	
 	.head-col-2 {
-	background-color: yellow;
+	background-color: none;
 	width: 50%;
 	margin-top: 20px;
 	float: left;
@@ -411,7 +410,7 @@ a {
 	}
 
 	.col-1 {
-		background-color: green;
+		background-color: none;
 		width: 100%;
 	}
 			
@@ -419,7 +418,7 @@ a {
 	.col-2 {
 		margin-top: 40px;
 		margin-bottom: 40px;
-		background-color: yellow;
+		background-color: none;
 		width: 100%;
 
 	}
