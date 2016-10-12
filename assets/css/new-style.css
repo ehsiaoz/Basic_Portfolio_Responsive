@@ -84,7 +84,7 @@ li a {
 }
 
 .head-col-1 {
-	background-color: none;
+	background-color: green;
 	width: 60%;
 	float: left;
 }
@@ -195,7 +195,7 @@ a {
 	.name {
 		background-color: #4aaaa5;
 		color: white;
-		width: 40%;
+		width: 50%;
 		float: left;
 		text-align: center;
 		margin-top: 6px;
@@ -358,7 +358,7 @@ a {
 	}
 
 	.head-col-1 {
-	background-color: none;
+	background-color: white;
 	width: 50%;
 	float: left;
 	}
@@ -455,22 +455,86 @@ a {
 
 
 @media screen and (max-width: 640px) {
-	
+		
+		/*This following section styles nav links in global header to have pipe dividers*/
+	li {
+		display: inline;
+		border-right: 1px #d1d2d3; padding: 0 3em;
+	}
+
+	/*This following section removes the pipe divdier from far right nav links in global header*/
+	ul li:last-child { 
+		border: 0; 
+	}
+
+	/*This following section styles font color nav links in global header and removes underline*/
+	li a {
+		text-decoration: none;
+		color: #d1d2d3;
+		font-family: Arial;
+	}
+
+
 	.header {
-		background-color: blue;
+	background-color: white;
+	height: 75px;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+	
+
+	.head-row-1 {
+	margin: auto;
+	
+	}
+
+	.head-col-1 {
+	background-color: #4aaaa5;
+	width: 100%;
+	float: left;
+	}
+
+	.nameWrapper {
+		background-color: white;
 		width: 100%;
-		height: 100px;
+		margin: auto;
+		padding-right: 40px;
 	}
 
 	.name {
-		background-color: grey;
+		background-color: #4aaaa5;
+		color: white;
 		width: 100%;
+		float: left;
+		text-align: center;
+		
 	}
 	
+	.head-col-2 {
+	background-color: none;
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+	text-align: center;
+	display: inline-block;
+	}
+
 	.navlinks {
-		background-color: purple;
-		width: 100%;
-	}	 	
+	background-color: white;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+	
+	} 	
+
+	.bodyBackground {
+	background-image:url("../images/cork-wallet.png");
+	min-height: 600px;
+	clear: both;
+	padding-top: 40px;
+	overflow: hidden;
+	}
 		
 	.wrapper {
 		background-color: brown;
@@ -478,21 +542,45 @@ a {
 	}
 
 	.col-1 {
-		background-color: green;
+		background-color: none;
 		width: 100%;
 	}
 			
 
-
 	.col-2 {
-		background-color: yellow;
-		width: 100%
+		margin-top: 40px;
+		margin-bottom: 40px;
+		background-color: none;
+		width: 100%;
+
 	}
 
+	.box1 {
+		background-color: white;
+		width: 90%;
+		margin: auto;
+		padding: 20px 20px;
+	}		
 
-	.col-3 {
-		background-color: red;
-		width: 100%
+	.box2 {
+		background-color: white;
+		width: 90%;
+		margin: auto;
+		padding: 10px;
+		display: inline-block;
+	}
+
+	.row-2 {
+		text-align: left;
+	}
+
+	.row-3 {
+		width: 100%;
+		text-align: left;
+	}
+
+	hr {
+		margin-bottom: 20px;
 	}
 
 }
